@@ -1,0 +1,31 @@
+.Post{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--cardColor);
+    gap: 1rem;
+}
+
+.Post>img{
+    /* width: 85%; */
+    margin-left: 10%;
+    width: 80%;
+    max-height: 28rem;
+    object-fit:fill;
+    border-radius: 1.1rem;
+}
+
+.postReact{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-left: 10%;
+}
+.postLike{
+    color : var(--gray);
+    font-size:12px;
+    margin-left: 10%;
+}
+.detail{
+    margin-left: 10%;   
+}

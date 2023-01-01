@@ -1,0 +1,87 @@
+.Auth{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap:1rem;
+    /* position: relative; */
+    /* background-color:rgb(20, 70, 86); */
+    
+}
+.Auth > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.a-top{
+    gap:0.5rem;
+}
+
+.a-top>img{
+    height:3.5rem;
+    border-radius: 50%;
+}
+
+.Webname > h1 {
+    font-size: 2rem;
+  
+    /* Create the gradient. */
+    background-image: var(--buttonBg);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.Webname>h6{
+    font-size: 0.85rem;
+}
+.infoForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .infoInput{
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    padding: 20px;
+    flex:1;
+  }
+  
+  .infoForm>div{
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 90%;
+  }
+  .infoButton{
+    width: 6rem;
+    height: 2rem;
+    align-self: flex-end;
+  }
+  .authForm{
+    background-color: rgb(229, 242, 250);
+    /* background-color: rgb(252, 255, 203); */
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 2px solid black;
+}
+
+.authForm>div{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
